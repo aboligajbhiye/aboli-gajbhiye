@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snake Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="game-container">
+        <canvas id="gameCanvas"></canvas>
+        <div class="score">Score: <span id="score">0</span></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snake Tic Tac Toe Car Race</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="dashboard">
+        <h1>Snake Tic Tac Toe Car Race</h1>
+        
+        <div id="tic-tac-toe">
+            <h2>Tic Tac Toe</h2>
+            <div class="grid">
+                <div class="cell" data-index="0"></div>
+                <div class="cell" data-index="1"></div>
+                <div class="cell" data-index="2"></div>
+                <div class="cell" data-index="3"></div>
+                <div class="cell" data-index="4"></div>
+                <div class="cell" data-index="5"></div>
+                <div class="cell" data-index="6"></div>
+                <div class="cell" data-index="7"></div>
+                <div class="cell" data-index="8"></div>
+            </div>
+            <button id="reset-tic-tac-toe">Reset</button>
+        </div>
+
+        <div id="snake-game">
+            <h2>Snake Game</h2>
+            <canvas id="snakeCanvas" width="300" height="300"></canvas>
+            <button id="reset-snake">Reset Snake</button>
+        </div>
+
+        <div id="car-race">
+            <h2>Car Race</h2>
+            <div class="car-race-track">
+                <div id="car"></div>
+            </div>
+            <button id="start-race">Start Race</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</htm
